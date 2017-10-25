@@ -1,0 +1,424 @@
+*{margin: 0px; padding: 0px;}
+
+.left{
+	float: left;
+}
+.right{ float: right;
+}
+
+
+@font-face{
+      font-family:"ARDECODE";
+
+      src:url(../fonts/ARDECODE.ttf);
+    }
+
+
+  header{background-color: #2a2e33;min-height: 100px;overflow: hidden;}
+.header_wrapper{width: 1300px;margin: 0 auto;}
+
+footer{
+   background-color: #333333;
+   min-height: 455px;
+  overflow: hidden;
+}
+
+#banner {
+background-color: #00ccff;
+min-height: 520px;
+position: relative;
+}
+
+
+#select_room_type {
+width:257px;
+height: 44px;
+border-radius: 10px;
+border:none;
+background: url(../img/select_icon.png) no-repeat;
+background-position: 5%;
+background-color: white;
+appearance:none;
+-moz-appearance:none;
+-webkit-appearance:none;
+padding-left:11%;
+}
+
+#select_room_type select {appearance:none;-moz-appearance:none;-webkit-appearance:none;}
+
+
+
+#package_booking {
+    background: url(../img/room_book_bg.jpg) no-repeat center center;
+    min-height: 600px;
+    border-bottom: 2px solid #949698;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#room_types {
+    background: url(../img/room_type_bg.jpg) no-repeat center center;
+    min-height: 900px;
+    overflow: hidden;
+
+}
+
+#testimonial {
+
+background-color: #e7cb2c;
+min-height: 185px;
+position: relative;
+}
+
+.testimonial_wrapper{width:1300px;margin: 0 auto;position:absolute;left:0;right:0;}
+
+.logo {
+width: 40%;
+height: 26px;
+
+padding-top: 42px;
+
+}
+
+.sub_title {
+font-family: Quicksand;
+font-size: 14px;
+color: #a4a5a7;
+}
+
+.menubar {
+width: 60%;
+
+
+}
+
+.menubar  ul{
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+
+.menubar  ul li{
+float: left;
+}
+
+.menubar  ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Droid Sans;
+    font-size: 13px;
+    padding: 35px 22px;
+    display: block;
+}
+
+
+.menubar ul li a:hover{
+    background-color: #1e2329;
+    padding: 40px 22px;
+    border-top:4px solid #ffd700;
+}
+.banner_caption {
+width: 740px;
+height: 277px;
+margin: 0 auto;
+text-align:center;
+padding-top: 78px;
+
+
+}
+
+.welcome_txt {
+  font-family: Quicksand;
+  font-weight: normal;
+  font-size:30pt;
+  color:white;
+}
+
+.caption_title {
+font-family: Quicksand;
+  font-weight: bold;
+  font-size:50pt;
+  color:white;
+}
+
+.facilities {
+
+  font-family: Quicksand;
+  font-weight: normal;
+  font-size:20pt;
+  color:white;
+
+}
+
+.view_pricing {
+background-color:#2a2e33;
+width: 90%;
+height: 102px;
+position: absolute;
+left: 0%;
+right: 0;
+bottom: -11%;
+margin: 0 auto;
+}
+
+.form-group {
+float: left;
+margin-left: 15px;
+}
+
+.form-group label {font-family: Quicksand;font-weight: 400;font-size:18pt;
+color: #7c6d26;}
+
+
+
+
+.arrival_common_date_style {
+  width:240px;
+height: 44px;
+border-radius: 10px;
+border:none;
+background: url(../img/calender-icon.png);
+background-repeat: no-repeat;
+background-color: white;
+background-position: 5%;
+padding-left: 12%;
+
+}
+
+
+
+.departure_common_date_style {
+  width:240px;
+height: 44px;
+border-radius: 10px;
+border:none;
+background: url(../img/icon.png);
+background-repeat: no-repeat;
+background-color: white;
+background-position: 5%;
+padding-left: 12%;
+
+}
+
+
+
+
+
+.view_price_btn {
+    background-color: #ffd700;
+    font-size: 18pt;
+    border: none;
+    border-radius: 10px;
+    width: 257px;
+    height: 44px;
+    font-family: Droid Sans;
+    font-weight: bold;
+    margin-top: 32px;
+
+}
+
+.package_booking_title {
+width:1137px;
+height: 107px;
+text-align: center;
+margin: 60px auto;
+}
+
+.package_booking_title h1{font-family: 'ARDECODE';font-size:60pt;color:#2a2e33;margin: 0px;
+
+}
+
+.package_booking_title p{font-family: 'Quicksand';font-size:14pt;color:#2a2e33;
+
+}
+
+.package_slider {
+width:1000px;
+height:100px;
+margin: 0px auto;
+
+}
+
+.left_indicators {
+	margin-top: 10%;
+}
+	
+
+.single_item {
+float: left;
+width:225px;
+height: 215px;
+background: white;
+border: 3px solid #2a2e33;
+border-radius: 130px;
+margin-left: 6%;
+margin-top: 35px;
+
+}
+
+.right_indicators {
+	margin-top: 10%;
+
+}
+
+.room_types_title {
+	width: 80%;
+	height: 75px;
+	margin: 0 auto;
+	text-align: center;
+	
+
+}
+.room_types_title h1{margin: 0px;font-size:60pt;color:#2a2e33;margin:0 auto;padding-top: 35px;
+}
+.all_room_types {
+width: 1195px;height: 580px;
+margin: 0 auto;
+margin: 80px auto;
+}
+
+.single_room_types {
+	width: 356px;
+	height: 354px;
+	float:left;
+	text-align: center;
+	margin-left: 3%;
+  margin-bottom:15px;
+}
+
+.room_image {
+}
+
+.room_type_data h1{font-family: Quicksand;font-weight:normal;font-size:24pt;margin: 0px;
+}
+.room_type_data p{font-family: Quicksand;font-weight:normal;font-size:14pt;margin: 0px;
+}
+
+
+.short.intro {
+}
+
+.room_facility {
+margin-top: 15px;
+}
+
+#testimonial{
+  background-color: #e7cb2c;
+  position: relative;
+  color:white;
+  font-family:Quicksand;
+  height: 150px;
+}
+.testimonial_data {
+width: 700px;
+height: 95px;
+float: left;
+padding-top:45px;
+font-family: Quicksand;
+text-align: center;
+}
+
+.testimonial_data h1{color:white;font-weight:400;font-size:36pt;margin:0px;}
+
+.comments {
+	color:white;font-weight:normal;
+}
+
+.author {
+	color:white;font-weight:normal;
+}
+
+.person_image {
+	position: absolute;
+	right: 0%;
+	bottom: -39%;
+}
+.footer_wrapper{width:1350px;height:100px;margin: 0px auto; padding-top: 25px;}
+
+.about_hotel h1,.latest_news h1,.join_deluxe h1,.member_area h1{
+font-family: Droid Sans;
+font-size: 18pt;
+color: #dbdbdb;
+}
+
+.about_hotel { 
+width:350px;
+height: 200px;
+}
+
+.footer_description {
+	font-family:Quicksand;
+	font-size: 14pt;
+	color: #dbdbdb;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.latest_news {
+width:310px;
+height: 200px;
+margin-left: 	
+}
+
+.single_news {
+	font-family:Quicksand;
+	font-size: 14pt;
+	color: #dbdbdb;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.date {
+	font-family:Quicksand;
+	font-size: 14pt;
+	color: #e7cb2c;
+}
+
+.join_deluxe {
+	width:460px;
+	height: 200px;
+}
+
+.read_more {
+    background-color: #e7cb2c;
+    font-size: 14pt;
+    border: none;
+    border-radius: 10px;
+    width: 155px;
+    height: 38px;
+    font-family: Quicksand;
+    font-weight: bold;
+    margin-top: 25px;
+
+
+
+}
+
+.member_area {
+	width:210px;
+	height: 200px;
+}
+
+.member_form_group label {
+	font-size: 12pt;
+	font-weight: normal;
+	color: #dbdbdb;
+}
+
+.username {
+	background-color: transparent;
+	border: 2px solid #2c2c2c;
+	border-radius: 10px;
+	width: 202px;
+	height: 32px;
+}
+
+.footer_bottom {
+	height: 35px;
+	background-color: #1f1f1f;
+}
+
+.coffee{
+  margin-bottom:10px;
+}
